@@ -24,3 +24,9 @@ class Math():
 		else:
 			print('Incorrect')
 		return score
+
+	@staticmethod
+	def nombre_premier_lvl_2() -> int:
+		print('Consigne: Simplifie 72:84')
+		res = input().replace(' ', '')
+		return 1 if res == '6:7' or res == '6/7' else 0
