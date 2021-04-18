@@ -1,8 +1,8 @@
 class Physique():
 
 	@staticmethod
-	def planetes():
-		solu = ['Mercure', 'Venus', 'Terre', 'Mars', 'Jupyter', 'Saturne', 'Uranus', 'Neptune']
+	def planetes() -> int:
+		solu = ['Mercure', 'Venus', 'Terre', 'Mars', 'Jupiter', 'Saturne', 'Uranus', 'Neptune']
 		rep = input('Citez les planetes dans l\'ordre, séparé par une virgule. Ex: Planete 1, Planete 2, etc..\n')
 		spl = rep.split(',')
 		for i in range(len(solu)):
